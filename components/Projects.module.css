@@ -1,0 +1,107 @@
+.section {
+  padding: 5rem 2rem;
+  border-top: 0.5px solid var(--border);
+  max-width: 900px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  background: var(--accent);
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: border-color 0.2s, transform 0.2s;
+  cursor: default;
+}
+
+.card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 22px;
+}
+
+.status {
+  font-size: 11px;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 0.5px solid var(--accent-border);
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+
+.inProgress {
+  color: #E4A62D;
+  background: rgba(228, 166, 45, 0.1);
+  border-color: rgba(228, 166, 45, 0.25);
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.cardDesc {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.75;
+  flex: 1;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.tagItem {
+  font-size: 11px;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 0.5px solid var(--accent-border);
+  padding: 3px 10px;
+  border-radius: 10px;
+}

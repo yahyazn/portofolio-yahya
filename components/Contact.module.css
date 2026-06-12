@@ -1,0 +1,94 @@
+.section {
+  padding: 5rem 2rem;
+  border-top: 0.5px solid var(--border);
+  max-width: 900px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  background: var(--accent);
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 2rem;
+}
+
+.box {
+  background: var(--bg3);
+  border: 0.5px solid var(--border);
+  border-radius: 14px;
+  padding: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.glow {
+  position: absolute;
+  right: -60px;
+  top: -60px;
+  width: 260px;
+  height: 260px;
+  background: radial-gradient(circle, rgba(45, 107, 228, 0.12) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.boxTitle {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.boxDesc {
+  font-size: 14px;
+  color: var(--muted);
+  max-width: 420px;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.linkList {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 0.5px solid var(--accent-border);
+  padding: 9px 18px;
+  border-radius: 8px;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.link:hover {
+  background: rgba(45, 107, 228, 0.2);
+  border-color: var(--accent);
+}
