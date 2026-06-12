@@ -6,7 +6,6 @@ const skills = [
   { name: 'Python', category: 'Backend' },
   { name: 'JavaScript', category: 'Web' },
   { name: 'HTML / CSS', category: 'Web' },
-  { name: 'jQuery', category: 'Web' },
   { name: 'MySQL', category: 'Database' },
   { name: 'Git', category: 'Tools' },
   { name: 'Jaringan Komputer', category: 'Networking' },

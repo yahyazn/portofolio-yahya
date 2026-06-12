@@ -26,21 +26,14 @@ const projects = [
     link: null,
   },
   {
-    title: 'Dashboard Sensor Suhu',
-    desc: 'Dashboard grafis real-time yang menampilkan data sensor suhu dari database MySQL menggunakan jQuery.',
-    tags: ['jQuery', 'MySQL', 'PHP'],
+    title: 'Web Monitoring Kinerja Departemen RS Citra Medika Lamongan',
+    desc: 'Dashboard berbasis web untuk memantau kinerja departemen di RS Citra Medika Lamongan. Menampilkan data real-time dengan visualisasi yang mudah dipahami.',
+    tags: ['Python', 'Streamlit', 'MySQL'],
     icon: '📊',
     status: 'Selesai',
     link: null,
   },
-  {
-    title: 'Dokumenter Moola',
-    desc: 'Video dokumenter tentang Moola, mall oleh-oleh di Lamongan, dengan narasi puitis bergaya Fiersa Besari.',
-    tags: ['Video', 'Narasi'],
-    icon: '🎥',
-    status: 'Selesai',
-    link: null,
-  },
+
 ]
 
 export default function Projects() {

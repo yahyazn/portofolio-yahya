@@ -3,7 +3,7 @@ import styles from './Contact.module.css'
 const links = [
   {
     label: 'Email',
-    href: 'mailto:yahya@email.com',
+    href: 'mailto:zarkasinuryahya@gmail.com',
     icon: (
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
         <rect x="2" y="4" width="20" height="16" rx="2" />
@@ -22,7 +22,7 @@ const links = [
   },
   {
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/yahyazn',
+    href: 'https://www.linkedin.com/in/yahyazarkasinur27/',
     icon: (
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
         <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />

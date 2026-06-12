@@ -1,10 +1,10 @@
 import styles from './About.module.css'
 
 const badges = [
-  'Ketua HMTK',
+  'Ketua HIMAKOM 2025-2026',
   'Ikatan Pelajar Muhammadiyah',
-  'HMI · LK 1',
-  'Freelance Data Entry',
+  'Ketua Bidang Pengembangan Profesi dan Kewirausahaan',
+  'Internship at RS. Citra Medika Lamongan as Web Developer',
   'Open to Collaborate',
 ]
 
@@ -20,15 +20,13 @@ export default function About() {
       <div className={styles.grid}>
         <div className={styles.content}>
           <p className={styles.text}>
-            Saya Yahya, mahasiswa S1 Teknik Komputer semester 4. Saya tertarik
-            membangun hal-hal dari nol — dari aplikasi mobile dengan Flutter,
-            web dengan Python, hingga dashboard data berbasis jQuery.
+            Saya Yahya, mahasiswa S1 Teknik Komputer semester 6. Saya tertarik
+            membangun hal-hal dari nol mulai dari aplikasi mobile dengan Flutter,
+            web dengan Python.
           </p>
           <p className={styles.text}>
             Di luar kuliah, saya aktif sebagai Ketua Himpunan Mahasiswa Teknik
-            Komputer dan anggota Ikatan Pelajar Muhammadiyah. Passion jangka
-            panjang saya adalah membangun aplikasi edukasi yang bermakna untuk
-            anak-anak.
+            Komputer dan Ketua Ikatan Pelajar Muhammadiyah Mantup.
           </p>
           <div className={styles.badges}>
             {badges.map((b) => (
