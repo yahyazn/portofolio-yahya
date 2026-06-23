@@ -1,5 +1,5 @@
 import styles from './About.module.css'
-import Image from 'next/image'
+import Image from 'next/public'
 
 const badges = [
   'Ketua HIMAKOM 2025-2026',
