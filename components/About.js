@@ -38,7 +38,7 @@ export default function About() {
 
         <div className={styles.photoWrap}>
           <div className={styles.photo}>
-            <Image src="/images/ft1.jpeg" alt="Yahya Zarkasih" width={300} height={300} className={styles.photo} />
+            <Image src="/public/ft1.jpeg" alt="Yahya Zarkasih" width={300} height={300} className={styles.photo} />
           </div>
         </div>
       </div>
