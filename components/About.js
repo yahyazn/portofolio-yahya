@@ -37,12 +37,8 @@ export default function About() {
         </div>
 
         <div className={styles.photoWrap}>
-            <image src="/images/ft1.jpeg" alt="Yahya Zarkasi Nur" className={styles.photo} width={300} height={300} />
-            <div className={styles.photoPlaceholder}>
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="1.5" aria-hidden="true">
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-              <circle cx="12" cy="7" r="4" />
-            </svg>
+          <div className={styles.photo}>
+            <image src="/images/ft1.jpeg" alt="Yahya Zarkasih" width={300} height={300} className={styles.photo} />
           </div>
         </div>
       </div>
