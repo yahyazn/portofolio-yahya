@@ -70,9 +70,9 @@
 
 .photo {
   width: 240px;
-  height: 240px;
+  height: auto;
   border-radius: 12px;
-  object-fit: cover;
+  object-fit: contain;
   border: 0.5px solid var(--border);
 }
 
