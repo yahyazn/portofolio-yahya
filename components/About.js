@@ -1,5 +1,5 @@
 import styles from './About.module.css'
-import Image from 'next/public'
+import Image from 'next/image'
 
 const badges = [
   'Ketua HIMAKOM 2025-2026',
@@ -38,7 +38,7 @@ export default function About() {
 
         <div className={styles.photoWrap}>
           <div className={styles.photo}>
-            <Image src="/public/ft1.jpeg" alt="Yahya Zarkasih" width={300} height={300} className={styles.photo} />
+            <Image src="/images/ft1.jpeg" alt="Yahya Zarkasih" width={300} height={300} className={styles.photo} />
           </div>
         </div>
       </div>
